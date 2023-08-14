@@ -4,9 +4,22 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
 }
-img {
-    height: 100%;
-    width: 100%;
+.header {
+    background-image: url(./images/headerj-bh.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.header-body {
+    text-align: center;
+    color: rgb(240, 240, 240);
+    padding: 50px 0 150px 0;
+}
+.logo {
+    display: block;
+    margin:auto;
+    border: 10px solid rgb(219, 207, 255);
+    border-radius: 15px;
 }
