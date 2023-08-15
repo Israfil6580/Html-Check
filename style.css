@@ -5,19 +5,57 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+.nav {
+    /* background: #c8c7ff; */
+}
+ol {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    display: block;
+    color: wheat;
+}
+.logo {
+    width: 40px;
+    vertical-align: middle;
+}
+li:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,33,158,0.46373314950980393) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+}
+li:hover a {
+    color: #FFF;
+}
+
+/*  */
+
 .header {
     background-image: url(./images/headerj-bh.png);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 10px;
 }
 .header-body {
     text-align: center;
     color: rgb(240, 240, 240);
     padding: 50px 0 150px 0;
 }
-.logo {
+.logo1 {
     display: block;
     margin:auto;
     border: 10px solid rgb(219, 207, 255);
