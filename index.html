@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Israfil Hossain">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Practice</title>
     <link rel="shortcut icon" href="images/Untitled design.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
-
-
 <div class="header">
     <div class="nav">
         <ol>
@@ -25,8 +24,44 @@
     <div class="header-body">
     <a href=""><img class="logo1" src="images/Coders.png" alt="" height="150px" width="auto"></a>
     <h1 style="padding: 10px 5px 0 0;">WHY YOU CHOOSE US</h1>
-    <p style="text-shadow: 2px 2px black;">CODERS COMMUNITY can help you create some agency documents! <br> However, I'll need more specific information about the type of documents you're looking to create. <br> Please provide me with details such as the purpose of the documents, their titles, and any specific content or sections you want to include. <br> This way, I can assist you in generating accurate and relevant agency documents.</p>
+    <p id="e-p" style="text-shadow: 2px 2px black;">CODERS COMMUNITY can help you create some agency documents! <br> However, I'll need more specific information about the type of documents you're looking to create. <br> Please provide me with details such as the purpose of the documents, their titles, and any specific content or sections you want to include. <br> This way, I can assist you in generating accurate and relevant agency documents.</p>
     </div> 
     </div>
+    <!--  -->  
+<!-- 
+    <button class="time-btn" onclick="document.getElementById('time').innerHTML = Date()">See time and date</button>
+    <h3 class="time-btn2" id="time"></h3> -->
+    <!-- <button style="display: block; margin: auto;" onclick="document.getElementById('time3').innerHTML = Date()">
+        Show Current Date
+        </button>
+        <strong style="text-align: center; display: block;" id="time3"></strong>
+<script>
+    document.getElementById("js-prac").innerHTML = "Nothing For Now!";
+    document.getElementById("e-p").style.backgroundColor = " blue";
+    document.getElementById("e-p").style.padding = "100px";
+    document.getElementById("e-p").innerText = "Sorry For That...We are extreamly soryy for that. Please manage yourself";
+</script> -->
+<img src="./images/187143.png" alt="" width="200px" style="margin: auto; display: block; padding: 2rem;" id="icon"> 
+<input type="button" value="Sad Icon" onclick="SadOn()">
+<input type="button" value="happy Icon" onclick="HappyOn()">
+<input type="button" value="Wallpaper" onclick="Wall_On()">
+<!--  -->
+
+
+
+<script>
+    function SadOn(){
+        document.getElementById('icon').src = "./images/187143.png";
+    }
+    function HappyOn(){
+        document.getElementById('icon').src = "./images/download.png";
+    }
+    function Wall_On(){
+        document.getElementById('icon').src = "./images/coders.png";
+    }
+</script>
+
+
+
 </body>
 </html>

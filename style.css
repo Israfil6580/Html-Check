@@ -58,3 +58,11 @@ li:hover a {
     border: 10px solid rgb(219, 207, 255);
     border-radius: 15px;
 }
+.time-btn {
+    margin: auto;
+    display: block;
+}
+.time-btn2 {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
