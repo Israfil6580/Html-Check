@@ -5,41 +5,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-nav {
-    width: 30%;
-    float: left;
-    background: rgb(181, 181, 255);
-    height: 400px;
-    padding: 20px;
+table , tr , th , td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
 }
-article {
-    width: 70%;
-    float: left;
-    background: #ffc1c1d8;
-    height: 400px;
-    padding: 20px;
-}
-nav ul {
-    list-style-type: none;
-}
-nav ul li a {
-    text-decoration: none;
-}
-.img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+table {
+    width: 90%;
+    /* align-items: center; */
+    text-align: center;
     margin: auto;
 }
-@media (max-width:800px) {
-    nav , article {
-        width: 100%;
-        height: auto;
-    }
-.img {
-    max-width: 100%;
-    height: auto;
-    }
-    }
-/*  */
