@@ -9,15 +9,3 @@ body {
     height: 100%;
     background: #9F73AB;
 }
-.fatherofshadow{
-text-align: center;
-margin: 3rem;
-}
-.shadow {
-    height: 300px;
-    width: 300px;
-    box-shadow: #970404 0px 2px 5px 0px inset;
-    text-align: center;
-    display: inline-block;
-    border-radius: 20px;
-}
