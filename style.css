@@ -1,11 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: poppins;
 }
-body {
-    height: 100%;
-    background: #9F73AB;
+
+/* card practice */
+#card-practice {
+    width: 90%;
+    margin: auto;
+    /* height: 500px; */
+    padding: 40px;
+    text-align: center;
+}
+.one-card {
+    width: 30%;
+    padding: 0;
+    background: aquamarine;
+    border-radius: 40px;
+    text-align: center;
+    display: inline-block;
+    /* height: 100%; */
+    margin: 6px;
+}
+#card-practice img {
+    width: 100%;
+}
+#card-practice .all-info {
+    padding: 10px 0;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(8, 0, 57);
+    color: bisque;
+    padding: 6px 10px;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+.btn:hover {
+    background-color: bisque;
+    color: #000;
+}
+@media(max-width:800px){
+    #card-practice {
+        padding: 0;
+    }
+    .one-card {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
 }
